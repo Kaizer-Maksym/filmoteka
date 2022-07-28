@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kaizer-Maksym/filmoteka.git"
+    "url": "git+https://github.com/Kaizer-Maksym/filmotekanp.git"
   },
   "keywords": [],
   "author": "Valeria German <valerie.g.dsgn@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/valerie-german/filmoteka-teamProject/issues"
+    "url": "https://github.com/Kaizer-Maksym/filmotekanp/issues"
   },
   "dependencies": {
     "axios": "^0.27.2",

@@ -14,8 +14,8 @@ window.addEventListener('DOMContentLoaded', searchByTranding);
 
 function searchByTranding() {
   if (
-    currentLocation === '/filmoteka-teamProject/index.html' ||
-    currentLocation === '/filmoteka-teamProject/'
+    currentLocation === '/filmoteka/index.html' ||
+    currentLocation === '/filmoteka/'
   ) {
     defaultGalleyRender();
   }
