@@ -17,7 +17,7 @@ Notify.init({
   pauseOnHover: true,
 });
 
-if (currentLocation === '/filmoteka-teamProject/my-library.html') {
+if (currentLocation === '/filmoteka/my-library.html') {
   window.addEventListener('DOMContentLoaded', () => {
     refs.watched.classList.add('is-active');
     refs.queue.classList.remove('is-active');
@@ -96,7 +96,7 @@ const defaultImgPath = 'https://i.ibb.co/4gF0DzF/enjoy-min.jpg';
 const imageURL = 'https://image.tmdb.org/t/p/';
 
 function createSource({ host, poster_path, width1, width2, min_width } = {}) {
-  return `<source 
+  return `<source
     srcset="${host}${width1}${poster_path} 1x, ${host}${width2}${poster_path} 2x"
     media="(min-width: ${min_width})"
   />`;
@@ -116,7 +116,7 @@ function createDefaultImage({ title, default_url } = {}) {
 }
 
 function createGalleryItemImage({ host, poster_path, title } = {}) {
-  return `<picture> 
+  return `<picture>
       ${createSource({
         host,
         poster_path,
@@ -170,7 +170,7 @@ function createGalleryItem({
               <div class="card">
                 <p class="card__name">${title}</p>
                 <div class="card__text">
-                <p class="card__genre">${genre} | <span class="card__year">${year}</span></p>                
+                <p class="card__genre">${genre} | <span class="card__year">${year}</span></p>
                 <p class="card__rate">${vote_average}</p>
                 </div>
               </div>

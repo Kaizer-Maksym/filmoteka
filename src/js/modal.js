@@ -268,7 +268,7 @@ function createAndUpdateInstance(obj = {}) {
       hidePreloader();
     }, 200);
     movie.removeItemFromGallery('gallery-home-list', movieId);
-    if (currentLocation === '/filmoteka-teamProject/my-library.html') {
+    if (currentLocation === '/filmoteka/my-library.html') {
       getFromWatched();
     }
   }
@@ -291,7 +291,7 @@ function createAndUpdateInstance(obj = {}) {
       hidePreloader();
     }, 200);
     movie.removeItemFromGallery('gallery-home-list', movieId);
-    if (currentLocation === '/filmoteka-teamProject/my-library.html') {
+    if (currentLocation === '/filmoteka/my-library.html') {
       getFromQueue();
     }
   }

@@ -13,8 +13,8 @@ export class MarkupApi {
   makeGalleryCardsMarkup(filmsData, dataGenres) {
     const currentLocation = window.location.pathname;
     if (
-      currentLocation === '/filmoteka-teamProject/index.html' ||
-      currentLocation === '/filmoteka-teamProject/'
+      currentLocation === '/filmoteka/index.html' ||
+      currentLocation === '/filmoteka/'
     ) {
       this.isMainPage = true;
     } else {
@@ -68,7 +68,7 @@ export class MarkupApi {
                     ${imageURL}original${poster_path} 2x
                     "
                     media="(min-width: 1024px)"
-                    
+
                 />
                 <source
                     srcset="
@@ -88,7 +88,7 @@ export class MarkupApi {
                     src="${imageURL}original${poster_path}" loading="lazy"
                     alt="${original_title}"
                     class="film-card__image"
-                    
+
                 />
                 </picture>`;
             } else {
@@ -104,7 +104,7 @@ export class MarkupApi {
                 <div class="card__text">
                 <p class="card__genre">${uniqueGenres} | <span>${
               year || year2 || ''
-            }</span></p>          
+            }</span></p>
                 <p class="card__rate ${
                   this.isMainPage ? 'visually-hidden' : ''
                 }">${vote}</p>
