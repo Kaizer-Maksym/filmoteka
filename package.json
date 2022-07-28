@@ -2,14 +2,14 @@
   "name": "filmoteka",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://valerie-german.github.io/filmoteka-teamProject/",
+  "homepage": "https://kaizer-maksym.github.io/filmoteka/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /filmoteka-teamProject/"
+    "build": "parcel build src/*.html --public-url /filmoteka/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/valerie-german/filmoteka-teamProject.git"
+    "url": "git+https://github.com/Kaizer-Maksym/filmoteka.git"
   },
   "keywords": [],
   "author": "Valeria German <valerie.g.dsgn@gmail.com>",
